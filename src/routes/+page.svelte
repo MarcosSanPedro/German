@@ -131,7 +131,7 @@
 		{#if showContent}
 		  <h1 in:fly="{{ y: 50, duration: 1000 }}" class="text-5xl md:text-6xl font-bold mb-6  text-oro dark:text-gold">Apoyándote en cada paso de tu camino</h1>
 		  <p in:fly="{{ y: 50, duration: 1000, delay: 300 }}" class="text-xl md:text-4xl mb-8 text-white dark:text-white">Te ayudamos a gestionar tus trámites de inmigración, servicios notariales y preparación de impuestos con profesionalismo y confianza.</p>
-		  <a in:fly="{{ y: 50, duration: 1000, delay: 600 }}" href="tel" class="bg-gold text-black font-bold py-3 px-8 rounded-full hover:bg-opacity-80 transition duration-300 inline-block text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1">Consulta Gratis</a>
+		  <a in:fly="{{ y: 50, duration: 1000, delay: 600 }}" href="tel:+13059264581" class="bg-gold text-black font-bold py-3 px-8 rounded-full hover:bg-opacity-80 transition duration-300 inline-block text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1">Consulta Gratis</a>
 		{/if}
 	  </div>
 	  <div class="absolute inset-0 bg-[url(/3.jpg)] bg-cover bg-center  opacity-30 dark:opacity-20"></div>
@@ -170,7 +170,7 @@
 		  <div class="md:w-1/2 mb-8 md:mb-0">
 			<h2 class="text-4xl font-bold mb-6">Preparación de Impuestos</h2>
 			<p class="text-xl mb-8">Ofrecemos servicios profesionales de preparación de impuestos tanto para individuos como para corporaciones. Maximiza tus devoluciones y asegura el cumplimiento fiscal con nuestro equipo experto.</p>
-			<a href="#contacto" class="bg-black dark:bg-gold text-gold dark:text-black font-bold py-3 px-8 rounded-full hover:bg-opacity-80 transition duration-300 inline-block text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+			<a href="tel:+13059264581" class="bg-black dark:bg-gold text-gold dark:text-black font-bold py-3 px-8 rounded-full hover:bg-opacity-80 transition duration-300 inline-block text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1">
 			  Consulta  Gratuita
 			</a>
 		  </div>
