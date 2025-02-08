@@ -92,7 +92,7 @@
 	function StarRating() {
 	  return `
 		<div class="flex justify-center mb-4">
-		  ${Array(5).fill().map(() => `
+			${Array(5).fill().map(() => `
 			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gold" viewBox="0 0 20 20" fill="#FFD700">
 			  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
 			</svg>
@@ -212,10 +212,10 @@
 		<p class="text-xl mb-8 text-gray-800 dark:text-white">Estamos aquí para ayudarte con tus necesidades migratorias.</p>
 		<p class="text-3xl font-bold mb-12 dark:text-gold">+1 (305) 926-4581</p>
 		<div class="flex justify-center space-x-8">
-		  <a href="https://www.tiktok.com/@pdm_immigrationservices" target="_blank" rel="noopener noreferrer" class="bg-gold text-black p-4 rounded-full hover:bg-opacity-80 transition duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+		  <a href="https://www.tiktok.com/@pdm_immigrationservices" aria-label="TikTok" target="_blank" rel="noopener noreferrer" class="bg-gold text-black p-4 rounded-full hover:bg-opacity-80 transition duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
 			<svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
 		  </a>
-		  <a href="https://www.facebook.com/profile.php?id=100088402383049" target="_blank" rel="noopener noreferrer" class="bg-gold text-black p-4 rounded-full hover:bg-opacity-80 transition duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
+		  <a href="https://www.facebook.com/profile.php?id=100088402383049" aria-label="Facebook" target="_blank" rel="noopener noreferrer" class="bg-gold text-black p-4 rounded-full hover:bg-opacity-80 transition duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg">
 			<svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.96.93-1.96 1.89v2.26h3.32l-.53 3.5h-2.8V24C19.62 23.1 24 18.1 24 12.07"/></svg>
 		  </a>
 		</div>
