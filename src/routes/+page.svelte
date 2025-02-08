@@ -134,7 +134,7 @@
 		  <a in:fly="{{ y: 50, duration: 1000, delay: 600 }}" href="tel:+13059264581" class="bg-gold text-black font-bold py-3 px-8 rounded-full hover:bg-opacity-80 transition duration-300 inline-block text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1">Consulta Gratis</a>
 		{/if}
 	  </div>
-	  <div class="absolute inset-0 bg-[url(/3.jpg)] bg-cover bg-center  opacity-30 dark:opacity-20"></div>
+	  <div class="absolute inset-0 bg-[url(/3.jpg)] bg-cover bg-center  opacity-20 dark:opacity-20"></div>
 	</section>
 	
 	<!-- Services Section -->
